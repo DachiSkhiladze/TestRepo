@@ -1,0 +1,17 @@
+﻿global using ErrorOr;
+global using FluentValidation;
+global using MediatR;
+global using Microsoft.AspNetCore.Http;
+global using Domain.Common.Errors;
+global using Application.Common.Interfaces.Persistence;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Reflection;
+global using Application.Common.Behaviors;
+global using Application.Events.Common;
+global using Application.Events.Commands.EventRegister;
+global using Application.Common.Interfaces.Services;
+global using Domain.Common.Limitations;
+global using Domain.City.ValueObjects;
+global using Domain.Event.Enums;
+global using Domain.Event.Entities;
+global using Application.Common.Formats;

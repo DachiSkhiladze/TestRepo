@@ -1,0 +1,17 @@
+﻿global using Ardalis.SmartEnum;
+global using Domain.City.ValueObjects;
+global using Domain.Common.Models;
+global using Domain.Common.Models.Identities;
+global using Domain.Country.ValueObjects;
+global using Domain.Event.Entities;
+global using Domain.Event.Enums;
+global using Domain.Event.Events;
+global using Domain.Event.ValueObjects;
+global using Domain.Favourite.ValueObjects;
+global using Domain.Language.ValueObjects;
+global using ErrorOr;
+global using MediatR;
+global using Domain.City.Events;
+global using Domain.Language.Events;
+global using Domain.Country.Events;
+global using Domain.Favourite.Events;
